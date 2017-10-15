@@ -490,6 +490,7 @@ $('a[href*="#"]')
           // Must change focus!
           var $target = $(target);
           $target.focus();
+          console.log($target);
           if ($target.is(":focus")) { // Checking if the target was focused
             return false;
           } else {

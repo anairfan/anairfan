@@ -59,6 +59,11 @@ body{
     padding: 50px 0px;
 }
 
+.wedding-section-container:focus{
+    text-decoration: none;
+    outline: 0px solid transparent;
+}
+
 .wedding-leaf-bg{
     background: url('../img/bg-leaf.png');
     background-size:100%;
