@@ -76,23 +76,17 @@ body{
 
 .wedding-header-title-square {
     position: relative;
-    width: 20%;
+    width: 25%;
     margin: 0 auto;
     background: #115148;
+    padding: 25px;
   }
+
   
-  .wedding-header-title-square:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
   
   .wedding-header-title__text {
     width: 100%;
     margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    display: table;
     font-family: 'Alex Brush';
     text-align: center;
     line-height: 6rem;
@@ -355,6 +349,60 @@ body{
   .bsp-text-container{
       display: none;
   }
+
+  .footer{
+      font-weight: 700;
+      text-align: center;
+  }
+
+  .footer a{
+      color:#115148;
+  }
+
+  @media(max-width:768px){
+    .wedding-header-title-square {
+        position: relative;
+        width: 75%;
+        margin: 0 auto;
+        background: #115148;
+        padding: 25px;
+      }
+
+      .wedding-couple-groom, .wedding-couple-bride, .wedding-couple-separator{
+        display: block;
+        padding: 10px;
+    }
+
+    .wedding-date-time__separator{
+        display: none;
+    }
+
+    .wedding-date-time{
+        font-size: 2.5rem;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .wedding-additional-info-countdown-block{
+        padding: 1rem;
+        display: inline-block;
+        color:#EEF4DC;
+        font-weight: 300;
+    }
+  
+    .wedding-additional-info-countdown__number{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .navbar-brand img{
+        height: 40px;
+        width:40px;
+    }
+    
+    
+  }
+  
 
 
 
