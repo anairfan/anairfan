@@ -211,6 +211,16 @@ body{
     margin: 0 20px;
 }
 
+.wedding-dresscode{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.wedding-dresscode__title{
+    color:#115148;
+}
+
 .weddding-location{
     text-align: center;
 }
